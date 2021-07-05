@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with OEM (version=1.10.21-21140) -->
+<MPD
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+  xmlns:cenc="urn:mpeg:cenc:2013"
+  type="dynamic"
+  availabilityStartTime="1970-01-01T00:00:00Z"
+  publishTime="2021-07-05T20:26:12.891675Z"
+  minimumUpdatePeriod="PT6S"
+  timeShiftBufferDepth="PT6M"
+  maxSegmentDuration="PT7S"
+  minBufferTime="PT10S"
+  profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264">
+  <Period
+    id="1"
+    start="PT0S">
+    <BaseURL>dash/</BaseURL>
+    <EventStream
+      schemeIdUri="urn:scte:scte35:2014:xml+bin"
+      timescale="10000000">
+      <!-- 2021-07-05T20:24:52Z -->
+      <Event
+        presentationTime="16255166920000000"
+        id="308334333">
+        <Signal xmlns="http://www.scte.org/schemas/35/2016">
+          <Binary>/DBqAAAAAA4QAP/wBQb/kOGdMABUAlJDVUVJALPMLX//AAANu6ABPjB4MDEwMTAxMDEsdXJuOnV1aWQ6NDQxMzM0ODYtYjE4MC1lNWM3LWRmZDEtZDk5MzI2OTBiZDY3LDUxLzMwAQAATKFnsw==</Binary>
+        </Signal>
+      </Event>
+      <!-- 2021-07-05T20:25:02Z -->
+      <Event
+        presentationTime="16255167020000000"
+        id="2283030617">
+        <Signal xmlns="http://www.scte.org/schemas/35/2016">
+          <Binary>/DBqAAAAAA4QAP/wBQb/kO9Y0ABUAlJDVUVJALP+mn//AAAEHrABPjB4MDEwMTAxMDEsdXJuOnV1aWQ6YmNjYzZlYjctOGM4NS00ZTg4LWM2OWUtODVkMTk3MjY3NzM2LDYxLzEwAQAAqy035A==</Binary>
+        </Signal>
+      </Event>
+      <!-- 2021-07-05T20:25:04.960000Z -->
+      <Event
+        presentationTime="16255167049600000"
+        id="2218773513">
+        <Signal xmlns="http://www.scte.org/schemas/35/2016">
+          <Binary>/DBqAAAAAA4QAP/wBQb/kPNpcABUAlJDVUVJALPMLn//AAFR1GABPjB4MDEwMTAxMDEsdXJuOnV1aWQ6YjM5NmE1NjEtNjJlMy1jZmJmLWY1ZmUtYzNmMTZjNzdlZmQ3LDMxLzYwAQAAZYO3eQ==</Binary>
+        </Signal>
+      </Event>
+      <!-- 2021-07-05T20:25:05Z -->
+      <Event
+        presentationTime="16255167050000000"
+        duration="600000000"
+        id="2638928637">
+        <Signal xmlns="http://www.scte.org/schemas/35/2016">
+          <Binary>/DAlAAAAAA4QAP/wFAUD7+Hpf+//kPN3gP4AUmXADFkBCQAAxc13qA==</Binary>
+        </Signal>
+      </Event>
+      <!-- 2021-07-05T20:25:05Z -->
+      <Event
+        presentationTime="16255167050000000"
+        duration="2400000000"
+        id="792524890">
+        <Signal xmlns="http://www.scte.org/schemas/35/2016">
+          <Binary>/DAlAAAAAA4QAP/wFAUqCK7if+//kPN3gP4BSZcAzFkCBAAAih5hAQ==</Binary>
+        </Signal>
+      </Event>
+      <!-- 2021-07-05T20:25:05Z -->
+      <Event
+        presentationTime="16255167050000000"
+        id="3469144078">
+        <Signal xmlns="http://www.scte.org/schemas/35/2016">
+          <Binary>/DBqAAAAAA4QAP/wBQb/kPN3gABUAlJDVUVJALP+oX//AABSZcABPjB4MDEwMTAxMDEsdXJuOnV1aWQ6YWJlYmM4YmQtMWUzNy1lZDA5LWM5OGMtYjAzZjRiOWM0MWM2LDExLzcwAQAANDgsEQ==</Binary>
+        </Signal>
+      </Event>
+    </EventStream>
+    <AdaptationSet
+      id="1"
+      group="1"
+      contentType="audio"
+      lang="en"
+      segmentAlignment="true"
+      audioSamplingRate="48000"
+      mimeType="audio/mp4"
+      codecs="mp4a.40.2"
+      startWithSAP="1">
+      <AudioChannelConfiguration
+        schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
+        value="2" />
+      <!-- Common Encryption -->
+      <ContentProtection
+        xmlns="urn:mpeg:dash:schema:mpd:2011"
+        xmlns:cenc="urn:mpeg:cenc:2013"
+        schemeIdUri="urn:mpeg:dash:mp4protection:2011"
+        value="cenc"
+        cenc:default_KID="94B7B4D0-D0D7-4713-B00E-210774932DE9">
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection
+        xmlns="urn:mpeg:dash:schema:mpd:2011"
+        schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95"
+        value="MSPR 2.0">
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection
+        xmlns="urn:mpeg:dash:schema:mpd:2011"
+        schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+      <SegmentTemplate
+        timescale="48000"
+        initialization="cenc-$RepresentationID$.dash"
+        media="cenc-$RepresentationID$-$Time$.dash">
+        <!-- 2021-07-05T20:19:46.706645Z / 1625516386 - 2021-07-05T20:25:47.666645Z -->
+        <SegmentTimeline>
+          <S t="78024786561919" d="288768" r="51" />
+          <S d="262145" />
+          <S d="26623" />
+          <S d="288768" r="6" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation
+        id="audio_1=96000"
+        bandwidth="96000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet
+      id="2"
+      group="2"
+      contentType="video"
+      par="16:9"
+      minBandwidth="504000"
+      maxBandwidth="1704000"
+      maxWidth="896"
+      maxHeight="504"
+      segmentAlignment="true"
+      sar="1:1"
+      frameRate="25"
+      mimeType="video/mp4"
+      startWithSAP="1">
+      <!-- Common Encryption -->
+      <ContentProtection
+        xmlns="urn:mpeg:dash:schema:mpd:2011"
+        xmlns:cenc="urn:mpeg:cenc:2013"
+        schemeIdUri="urn:mpeg:dash:mp4protection:2011"
+        value="cenc"
+        cenc:default_KID="94B7B4D0-D0D7-4713-B00E-210774932DE9">
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection
+        xmlns="urn:mpeg:dash:schema:mpd:2011"
+        schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95"
+        value="MSPR 2.0">
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection
+        xmlns="urn:mpeg:dash:schema:mpd:2011"
+        schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+      <SegmentTemplate
+        timescale="600"
+        initialization="cenc-$RepresentationID$.dash"
+        media="cenc-$RepresentationID$-$Time$.dash">
+        <!-- 2021-07-05T20:19:49.720000Z / 1625516389 - 2021-07-05T20:25:49.720000Z -->
+        <SegmentTimeline>
+          <S t="975309833832" d="3600" r="51" />
+          <S d="1968" />
+          <S d="1632" />
+          <S d="3600" r="6" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation
+        id="video=504000"
+        bandwidth="504000"
+        width="512"
+        height="288"
+        codecs="avc1.64001E"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=704000"
+        bandwidth="704000"
+        width="512"
+        height="288"
+        codecs="avc1.64001E"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=1104000"
+        bandwidth="1104000"
+        width="896"
+        height="504"
+        codecs="avc1.64001F"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=1403968"
+        bandwidth="1403968"
+        width="896"
+        height="504"
+        codecs="avc1.64001F"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=1704000"
+        bandwidth="1704000"
+        width="896"
+        height="504"
+        codecs="avc1.64001F"
+        scanType="progressive">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <UTCTiming
+    schemeIdUri="urn:mpeg:dash:utc:http-iso:2014"
+    value="https://time.akamai.com/?iso" />
+</MPD>
